@@ -4,8 +4,8 @@ set relativenumber
 " use spaces instead of tabs
 set expandtab
 
-" 1 tab = 2 spaces
-set tabstop=2 shiftwidth=2
+" 1 tab = 4 spaces
+set tabstop=4 shiftwidth=4
 
 " when deleting whitespace at the beginning of a line,
 " delete 1 tab worth of spaces 
