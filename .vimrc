@@ -1,6 +1,19 @@
 " show relative line numbers
 set relativenumber
 
+" enable filetype plugins
+filetype plugin on
+filetype indent on
+
+" set the leader
+let mapleader = ","
+
+" Turn on wild menu
+set wildmenu
+
+" show current position
+set ruler
+
 " use spaces instead of tabs
 set expandtab
 
@@ -20,12 +33,25 @@ set smartcase
 
 " highlight search results
 set hlsearch
-nnoremap <silent> <C-L> :nohlsearch<CR><C-L>
+map <silent> <leader><cr> :noh<cr>
 
 " highlight all pattern matches WHILE typing the pattern
 set incsearch
+
+" dont redraw while executing macros
+set lazyredraw
 
 " show the matching brackets
 set showmatch
 
 color morning
+
+set nobackup
+set nowb
+set noswapfile
+
+" Smart way to move between windows
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
