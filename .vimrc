@@ -1,6 +1,9 @@
 " show relative line numbers
 set relativenumber
 
+set t_Co=256
+syntax on
+
 " enable filetype plugins
 filetype plugin on
 filetype indent on
@@ -44,7 +47,7 @@ set lazyredraw
 " show the matching brackets
 set showmatch
 
-color morning
+color elflord
 
 set nobackup
 set nowb
