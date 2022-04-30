@@ -1,3 +1,9 @@
+call plug#begin()
+
+Plug 'vhda/verilog_systemverilog.vim'
+Plug 'ervandew/supertab'
+
+call plug#end()
 " show relative line numbers
 set relativenumber
 
