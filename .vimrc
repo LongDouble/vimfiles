@@ -89,6 +89,8 @@ nnoremap <silent> <C-c> <esc>k0f/:set ve=all<cr>ji//<esc>:set ve=<cr>a<space>
 """"""""""""""""""
 " NERDTree mappings
 """"""""""""""""""
+let g:NERDTreeShowLineNumbers=1
+autocmd BufEnter NERD_* setlocal rnu
 
 " Open NERDTree (refreshes)
 nnoremap <C-n> :NERDTree<CR> 
