@@ -79,4 +79,8 @@ noremap <leader>8 8gt
 noremap <leader>9 9gt
 
 " Create new tab
-noremap <leader>t :tabe<cr>
+noremap <silent> <leader>t :tabe<cr>
+
+" Make comment in line with above comment
+inoremap <silent> <C-c> <esc>kf/:set ve=all<cr>ji//<esc>:set ve=<cr>a<space>
+nnoremap <silent> <C-c> <esc>kf/:set ve=all<cr>ji//<esc>:set ve=<cr>a<space>
