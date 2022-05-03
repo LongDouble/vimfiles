@@ -2,6 +2,7 @@ call plug#begin()
 
 Plug 'vhda/verilog_systemverilog.vim'
 Plug 'ervandew/supertab'
+Plug 'preservim/nerdtree'
 
 call plug#end()
 " show relative line numbers
@@ -84,3 +85,14 @@ noremap <silent> <leader>t :tabe<cr>
 " Make comment in line with above comment
 inoremap <silent> <C-c> <esc>k0f/:set ve=all<cr>ji//<esc>:set ve=<cr>a<space>
 nnoremap <silent> <C-c> <esc>k0f/:set ve=all<cr>ji//<esc>:set ve=<cr>a<space>
+
+""""""""""""""""""
+" NERDTree mappings
+""""""""""""""""""
+
+" Open NERDTree (refreshes)
+nnoremap <C-n> :NERDTree<CR> 
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
+
+
