@@ -82,5 +82,5 @@ noremap <leader>9 9gt
 noremap <silent> <leader>t :tabe<cr>
 
 " Make comment in line with above comment
-inoremap <silent> <C-c> <esc>kf/:set ve=all<cr>ji//<esc>:set ve=<cr>a<space>
-nnoremap <silent> <C-c> <esc>kf/:set ve=all<cr>ji//<esc>:set ve=<cr>a<space>
+inoremap <silent> <C-c> <esc>k0f/:set ve=all<cr>ji//<esc>:set ve=<cr>a<space>
+nnoremap <silent> <C-c> <esc>k0f/:set ve=all<cr>ji//<esc>:set ve=<cr>a<space>
