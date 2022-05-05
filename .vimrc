@@ -97,4 +97,6 @@ nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
-
+" Highlight cursor's current line
+set cursorline
+hi CursorLine cterm=NONE ctermbg=18
