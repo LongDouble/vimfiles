@@ -100,3 +100,9 @@ nnoremap <C-f> :NERDTreeFind<CR>
 " Highlight cursor's current line
 set cursorline
 hi CursorLine cterm=NONE ctermbg=18
+
+" Don't replace buffer when pasting
+vnoremap p "0p
+vnoremap P "0P
+vnoremap y "0y
+vnoremap d "0d
