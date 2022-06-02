@@ -3,6 +3,7 @@ call plug#begin()
 Plug 'vhda/verilog_systemverilog.vim'
 Plug 'ervandew/supertab'
 Plug 'preservim/nerdtree'
+Plug 'morhetz/gruvbox', { 'as': 'gruvbox' }
 
 call plug#end()
 
@@ -56,7 +57,8 @@ set lazyredraw
 " show the matching brackets
 set showmatch
 
-color elflord
+color gruvbox
+set background=dark
 
 set nobackup
 set nowb
