@@ -86,6 +86,9 @@ noremap <silent> <leader>t :tabe<cr>
 inoremap <silent> <C-c> <esc>k0f/:set ve=all<cr>ji//<esc>:set ve=<cr>a<space>
 nnoremap <silent> <C-c> <esc>k0f/:set ve=all<cr>ji//<esc>:set ve=<cr>a<space>
 
+" Yank current file path into unamed register
+nmap <silent> <leader>/ :let @" = expand("%:p")<cr>
+
 """"""""""""""""""
 " NERDTree mappings
 """"""""""""""""""
