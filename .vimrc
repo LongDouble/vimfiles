@@ -5,8 +5,10 @@ Plug 'ervandew/supertab'
 Plug 'preservim/nerdtree'
 
 call plug#end()
+
 " show relative line numbers
-set relativenumber
+set number relativenumber
+set nu rnu
 
 set t_Co=256
 syntax on
