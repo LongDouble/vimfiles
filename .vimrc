@@ -4,8 +4,12 @@ Plug 'vhda/verilog_systemverilog.vim'
 Plug 'ervandew/supertab'
 Plug 'preservim/nerdtree'
 Plug 'morhetz/gruvbox', { 'as': 'gruvbox' }
+Plug 'itchyny/lightline.vim'
 
 call plug#end()
+
+" Show status bar and command
+set laststatus=2
 
 " show relative line numbers
 set number relativenumber
